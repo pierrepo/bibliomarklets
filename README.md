@@ -15,5 +15,6 @@ Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéd
 
 Un [bookmarklet](http://fr.wikipedia.org/wiki/Bookmarklet) s'est grosso modo du code javascript dans un lien HTML. En cliquant sur le bouton (en fait sur le lien qu'il contient), le code javascript est exécuté. La plupart du temps celui-ci modifie l'adresse web de la page qui contient l'article  pour le faire passer par le proxy de l'institution en question.
 
+`bibliomarklets.html` est généré par le script Python `build.py` à partir du fichier [biblioproxy.txt](https://raw.github.com/pierrepo/bibliomarklets/master/biblioproxy.txt) qui contient une liste d'institutions avec leur proxy.
 
 L'idée des bibliomarklets vient des articles de blog suivants [Un bookmarklet pour accéder plus facilement aux publications - Bioinfo-fr.net 30/10/2013](http://bioinfo-fr.net/un-bookmarklet-pour-acceder-plus-facilement-aux-publications) et [Les articles en un clic (droit) - bibliotheque-blogs.unice.fr 26/11/2013](http://bibliotheque-blogs.unice.fr/httbu/2013/11/26/les-articles-en-un-clic-droit/)
