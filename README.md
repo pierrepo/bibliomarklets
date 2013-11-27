@@ -7,7 +7,7 @@ Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéd
 
 # Comment on fait ? #
 
-* Enregistrez le fichier [bibliomarklets.html](https://github.com/pierrepo/bibliomarklets/blob/master/bibliomarklets.html) sur votre ordinateur puis ouvrez-le avec votre navigateur habituel.
+* Enregistrez le fichier [bibliomarklets.html](https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html) sur votre ordinateur puis ouvrez-le avec votre navigateur habituel.
 * Faites glisser le bouton qui vous intéresse (l'insitution avec laquelle vous avez un compte d'accès biblio) dans la barre de favoris (Chrome), la barre personnelle (Firefox) ou directement dans vos bookmarks.
 * Lorsque vous tombez sur un article payant, cliquez sur le bookmarklet que vous avez enregistré, la page devrait se recharger en vous proposant de vous authentifier (avec le compte de votre institution). Si votre compte est valide et que votre institution est abonnée à la revue dont provient l'article, vous y aurez accès.
 
