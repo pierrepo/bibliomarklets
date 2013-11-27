@@ -1,4 +1,4 @@
-Les **bibliomarklets** visent à faciliter l'accès aux articles scientifiques payants en passant les proxys institutionnels (CNRS, Inserm, universités...).
+Les **bibliomarklets** visent à faciliter l'accès aux articles scientifiques payants en passant par les proxys institutionnels (CNRS, Inserm, universités...).
 
 Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéder à des articles scientifiques payants à condition que : 
 
