@@ -1,8 +1,14 @@
 # -*- coding: utf8 -*-
-"""
-This script build a HTML file containing bookmarklets from a list of proxies
-"""
 
+"""This script build a HTML file containing bookmarklets from a list of proxies"""
+
+__author__ = "Pierre Poulain"
+__copyright__ = "Copyright 2013"
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Pierre Poulain"
+__email__ = "pierre.poulain@cupnet.net"
+__status__ = "Development"
 
 
 #==============================================================================
@@ -45,6 +51,7 @@ HTML_HEADER="""
 </style>
 </head>
 <body>
+<h1>Bibliomarklets</h1>
 """
 
 # need in order: alias, section, proxy, alias, and section
@@ -54,6 +61,11 @@ accès via %s</p>
 """
 
 HTML_FOOTER="""
+<p>
+<a href="https://github.com/pierrepo/bibliomarklets">Bibliomarklets</a> repository on 
+<a href="https://github.com/">GitHub</a> 
+-- Pierre Poulain (<a href="http://cupnet.net">cupnet.net</a>, 2013)
+</p>
 </body>
 </html>
 """
