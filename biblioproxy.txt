@@ -1,0 +1,31 @@
+[Inserm]
+alias=BiblioInserm
+proxy=.gate2.inist.fr 
+  
+[CNRS]
+alias=BiblioVie
+proxy=.gate1.inist.fr
+
+[Université Paris 7 - Paris Diderot]
+alias=Biblio Paris 7
+proxy=.rproxy.sc.univ-paris-diderot.fr
+
+[Université de Nice Sophia Antipolis]
+alias=Biblio Unice
+proxy=.proxy.unice.fr 
+
+[Université Lille 3 Charles-de-Gaulle]
+alias=Biblio Lille 3
+proxy=.proxy.scd.univ-lille3.fr 
+
+[Observatoire de Paris]
+alias=Biblio Obspm
+proxy=.ezproxy.obspm.fr 
+
+[Aix Marseille Université]
+alias=Biblio AMU
+proxy=.lama.univ-amu.fr  
+
+[Université Claude Bernard Lyon 1]
+alias=Biblio Lyon 1
+proxy=.docelec.univ-lyon1.fr  
