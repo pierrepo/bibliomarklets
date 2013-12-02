@@ -29,3 +29,7 @@ proxy=.lama.univ-amu.fr
 [Université Claude Bernard Lyon 1]
 alias=Biblio Lyon 1
 proxy=.docelec.univ-lyon1.fr  
+
+[National University of Singapore]
+alias=NUS
+proxy=.libproxy1.nus.edu.sg
