@@ -1,6 +1,6 @@
 Les **bibliomarklets** visent à faciliter l'accès aux articles scientifiques payants en passant par les proxys institutionnels (CNRS, Inserm, universités...).
 
-Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéder à des articles scientifiques payants à condition que : 
+Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéder à des articles scientifiques à condition que : 
 
 * vous ayez un compte (login / mot-de-passe) chez une institution/fournisseur (typiquement en étant étudiant d'une université ou personnel d'un laboratoire de recherche associé à cette institution) ;
 * votre institution soit abonnée à la revue dont l'article vous intéresse.
@@ -18,3 +18,5 @@ Un [bookmarklet](http://fr.wikipedia.org/wiki/Bookmarklet) s'est grosso modo du 
 [bibliomarklets.html](https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html) est généré par le script Python [build.py](https://raw.github.com/pierrepo/bibliomarklets/master/build.py) à partir du fichier [biblioproxy.txt](https://raw.github.com/pierrepo/bibliomarklets/master/biblioproxy.txt) qui contient une liste d'institutions avec leur proxy.
 
 L'idée des bibliomarklets vient des articles de blog suivants [Un bookmarklet pour accéder plus facilement aux publications - Bioinfo-fr.net 30/10/2013](http://bioinfo-fr.net/un-bookmarklet-pour-acceder-plus-facilement-aux-publications) et [Les articles en un clic (droit) - bibliotheque-blogs.unice.fr 26/11/2013](http://bibliotheque-blogs.unice.fr/httbu/2013/11/26/les-articles-en-un-clic-droit/)
+
+
