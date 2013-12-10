@@ -33,7 +33,8 @@ ou
 `http://atoz.ebsco.com/Link/PackageLocation/7245?PackageLocationId=4619346&UrlSource=ATOZ&Usage=ATOZ`
 et là je ne peux rien pour vous...
 
-# Concepts # 
+
+# Concepts #
 
 L'idée des bibliomarklets vient des articles de blog suivants [Un bookmarklet pour accéder plus facilement aux publications - Bioinfo-fr.net 30/10/2013](http://bioinfo-fr.net/un-bookmarklet-pour-acceder-plus-facilement-aux-publications) et [Les articles en un clic (droit) - bibliotheque-blogs.unice.fr 26/11/2013](http://bibliotheque-blogs.unice.fr/httbu/2013/11/26/les-articles-en-un-clic-droit/)
 
