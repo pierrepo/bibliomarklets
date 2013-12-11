@@ -8,12 +8,20 @@ Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéd
 # Comment on fait ? #
 
 * Visualisez le fichier fichier [bibliomarklets.html](https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html) en cliquant <a href="http://htmlpreview.github.com/?https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html" target="_blank">ICI</a>.
-* Faites glisser le bouton qui vous intéresse (l'institution avec laquelle vous avez un compte d'accès biblio) dans la barre de favoris (Chrome), la barre personnelle (Firefox) ou directement dans les bookmarks de votre navigateur.
+* Faites glisser le bouton qui vous intéresse (l'institution avec laquelle vous avez un compte d'accès biblio) dans la barre de favoris (pour Chrome), la barre personnelle (pour Firefox) ou directement dans les bookmarks de votre navigateur.
 * Lorsque vous tombez sur un article payant, cliquez sur le bookmarklet que vous avez enregistré, la page devrait se recharger en vous proposant de vous authentifier (avec le compte de votre institution). Si votre compte est valide et que votre institution est abonnée à la revue dont provient l'article, vous y aurez accès.
 
 # Comment ça marche ? #
 
-Un [bookmarklet](http://fr.wikipedia.org/wiki/Bookmarklet) s'est grosso modo du code javascript dans un lien HTML. En cliquant sur le bouton (en fait sur le lien qu'il contient), le code javascript est exécuté. La plupart du temps celui-ci modifie l'adresse web de la page qui contient l'article  pour le faire passer par le proxy de l'institution en question.
+Un [bookmarklet](http://fr.wikipedia.org/wiki/Bookmarklet) s'est grosso modo du code javascript dans un lien HTML. En cliquant sur le bouton (en fait sur le lien qu'il contient), le code javascript est exécuté. Celui-ci modifie l'adresse web de la page qui contient l'article pour le faire passer par le proxy de l'institution en question.
+
+Concrètement, une bibliomarklet va simplement ajouter `.proxy.votre.institution` à l'adresse de la page de votre article, tranformant ainsi
+
+    http://site.editeur/adresse/article/interessant
+
+en
+
+    http://site.editeur.proxy.votre.institution/adresse/article/interessant
 
 [bibliomarklets.html](https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html) est généré par le script Python [build.py](https://raw.github.com/pierrepo/bibliomarklets/master/build.py) à partir du fichier [biblioproxy.txt](https://raw.github.com/pierrepo/bibliomarklets/master/biblioproxy.txt) qui contient une liste d'institutions avec leurs proxys.
 
@@ -23,7 +31,7 @@ Un [bookmarklet](http://fr.wikipedia.org/wiki/Bookmarklet) s'est grosso modo du 
 
 * L'ajouter vous même au fichier [biblioproxy.txt](https://raw.github.com/pierrepo/bibliomarklets/master/biblioproxy.txt) en clonant ce [dépôt GitHub](https://github.com/pierrepo/bibliomarklets) puis en demandant un [*Pull Request*](https://github.com/pierrepo/bibliomarklets/pulls). 
 
-* M'envoyer un mail ;-)
+* M'envoyer un [mail](http://cupnet.net/about/) ;-)
 
 * Ou encore plus simple : utiliser  le [générateur dynamique de bibliomarklets](http://jbarnoud.github.io/proxy-bookmarklet/) proposé par mon ancien collègue [Jonathan Barnoud](https://twitter.com/jbarnoud). Entrez le proxy de votre institution, cliquez sur *Create* et vous obtenez votre bookmarklet !
 
