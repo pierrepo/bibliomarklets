@@ -19,13 +19,13 @@ Un [bookmarklet](http://fr.wikipedia.org/wiki/Bookmarklet) s'est grosso modo du 
 
 # Pourquoi il n'y a pas de bibliomarklet pour ma fac / institution ? #
 
-1. Parce que je n'ai pas eu le temps de le faire ;-) Si vous accèder à votre bliblio via un proxy *simple* du type `http://site.editeur.scientifique.proxy.votre.institution/adresse/article/interessant` alors vous pouvez :
+1. Parce que je n'ai pas eu le temps de le faire ;-) Si vous accèdez à votre bliblio via un proxy *simple* du type `http://site.editeur.scientifique.proxy.votre.institution/adresse/article/interessant` alors vous pouvez :
 
-* L'ajoutez vous même au fichier [biblioproxy.txt](https://raw.github.com/pierrepo/bibliomarklets/master/biblioproxy.txt) en clonant ce [dépôt GitHub](https://github.com/pierrepo/bibliomarklets) puis en demandant un [*Pull Request*](https://github.com/pierrepo/bibliomarklets/pulls). 
+* L'ajouter vous même au fichier [biblioproxy.txt](https://raw.github.com/pierrepo/bibliomarklets/master/biblioproxy.txt) en clonant ce [dépôt GitHub](https://github.com/pierrepo/bibliomarklets) puis en demandant un [*Pull Request*](https://github.com/pierrepo/bibliomarklets/pulls). 
 
-* M'envoyez un mail ;-)
+* M'envoyer un mail ;-)
 
-* Ou encore plus simple : utilisez  le [générateur dynamique de bibliomarklets](http://jbarnoud.github.io/proxy-bookmarklet/) proposé par mon ancien collègue [Jonathan Barnoud](https://twitter.com/jbarnoud). Entrez le proxy de votre institution et vous avez votre bookmarklet !
+* Ou encore plus simple : utiliser  le [générateur dynamique de bibliomarklets](http://jbarnoud.github.io/proxy-bookmarklet/) proposé par mon ancien collègue [Jonathan Barnoud](https://twitter.com/jbarnoud). Entrez le proxy de votre institution, cliquez sur *Create* et vous obtenez votre bookmarklet !
 
 2. Parce que votre institution utilise un proxy *compliqué* du type 
 `http://sfxeu06.hosted.exlibrisgroup.com/33UPMC?url_ver=Z39.88-2004&url_ctx_fmt=infofi/`
