@@ -41,13 +41,16 @@ HTML_HEADER="""
   box-shadow: inset 0 0 1px 1px #f6f6f6;
   color: #333;
   font: bold 12px helvetica, helvetica, arial, sans-serif;
-  line-height: 1;
   padding: 8px 5px 9px 5px;
   margin: 1px 2px 1px 2px;
   text-align: center;
   text-shadow: 0 1px 0 #fff;
   text-decoration: none;
  }
+
+p {
+    padding: 5px 1px;
+}
 </style>
 </head>
 <body>
