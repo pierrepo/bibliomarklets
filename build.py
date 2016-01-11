@@ -64,7 +64,7 @@ HTML_FOOTER="""
 <p>
 <a href="https://github.com/pierrepo/bibliomarklets">Bibliomarklets</a> repository on 
 <a href="https://github.com/">GitHub</a> 
--- Pierre Poulain (<a href="http://cupnet.net">cupnet.net</a>, 2013)
+-- Pierre Poulain (<a href="http://cupnet.net">cupnet.net</a>, 2016)
 </p>
 </body>
 </html>

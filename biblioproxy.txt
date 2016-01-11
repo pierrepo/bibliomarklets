@@ -33,3 +33,8 @@ proxy=.docelec.univ-lyon1.fr
 [National University of Singapore]
 alias=NUS
 proxy=.libproxy1.nus.edu.sg
+
+[sci-hub.io]
+alias=sci-hub.io
+proxy=.sci-hub.io
+
