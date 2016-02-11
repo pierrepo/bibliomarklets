@@ -33,7 +33,7 @@ en
 
     * M'envoyer un [mail](http://cupnet.net/about/) ;-)
 
-    * Ou encore plus simple : utiliser  le [générateur dynamique de bibliomarklets](http://jbarnoud.github.io/proxy-bookmarklet/) proposé par mon ancien collègue [Jonathan Barnoud](https://twitter.com/jbarnoud). Entrez le proxy de votre institution, cliquez sur *Create* et vous obtenez votre bookmarklet !
+    * Ou aussi utiliser le [générateur dynamique de bibliomarklets](http://jbarnoud.github.io/proxy-bookmarklet/) proposé par mon ancien collègue [Jonathan Barnoud](https://twitter.com/jbarnoud). Entrez le proxy de votre institution, cliquez sur *Create* et vous obtenez votre bookmarklet !
 
 2. Parce que votre institution utilise un proxy *compliqué* du type 
 `http://sfxeu06.hosted.exlibrisgroup.com/33UPMC?url_ver=Z39.88-2004&url_ctx_fmt=infofi/`
