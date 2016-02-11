@@ -62,16 +62,22 @@ accès via %s</p>
 """
 
 HTML_FOOTER="""
-<h2>Comment faire ?</h2>
+<h2>Comment utiliser ces bibliomarklets ?</h2>
 <p>
 <ul>
     <li>Faites glisser le bouton qui vous intéresse (l'institution avec laquelle vous avez un compte d'accès biblio) dans la barre de favoris (pour Chrome), la barre personnelle (pour Firefox) ou directement dans les bookmarks de votre navigateur.</li>
     <li>Lorsque vous tombez sur un article payant, cliquez sur le bookmarklet que vous avez précédemment enregistré. La page devrait se recharger en vous proposant de vous authentifier (avec le compte de votre institution). Si votre compte est valide et que votre institution est abonnée à la revue dont provient l'article, vous y aurez accès.</li>
 </ul>
 </p>
+
+<h2>Comment contribuer ?</h2>
 <p>
-Le code utilisé pour générer cette page est disponible <a href="https://github.com/pierrepo/bibliomarklets">ici</a>. <br />
-Si vous souhaitez ajouter votre instition, envoyez-moi un mail à pierre.poulain@cupnet.net (mais lisez <a href="https://github.com/pierrepo/bibliomarklets#pourquoi-il-ny-a-pas-de-bibliomarklet-pour-ma-fac--institution-">ceci</a> d'abord).<br />
+Le code utilisé pour générer cette page est disponible <a href="https://github.com/pierrepo/bibliomarklets">ici</a>. N'hésitez pas à l'améliorer.
+</p>
+<p>
+Si vous souhaitez ajouter votre instition, envoyez-moi un mail à pierre.poulain@cupnet.net (mais lisez <a href="https://github.com/pierrepo/bibliomarklets#pourquoi-il-ny-a-pas-de-bibliomarklet-pour-ma-fac--institution-">ceci</a> d'abord).
+</p>
+<p>
 -- <br />
 Pierre Poulain (<a href="http://cupnet.net">cupnet.net</a>, 2016)
 </p>

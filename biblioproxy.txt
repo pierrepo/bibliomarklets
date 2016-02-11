@@ -46,7 +46,7 @@ proxy=.docelec.univ-lyon1.fr
 alias=Biblio NUS
 proxy=.libproxy1.nus.edu.sg
 
-[sci-hub.io]
+[sci-hub.io ;-)]
 alias=sci-hub.io
 proxy=.sci-hub.io
 
