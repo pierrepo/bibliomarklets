@@ -52,5 +52,5 @@ proxy=.sci-hub.io
 
 [Université Paris Sud]
 alias=Biblio U. Paris Sud
-proxy=.proxy.scd.u-psud.fr:2048
+proxy=.proxy.scd.u-psud.fr
 
