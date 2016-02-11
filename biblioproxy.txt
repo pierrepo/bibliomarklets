@@ -50,3 +50,6 @@ proxy=.libproxy1.nus.edu.sg
 alias=sci-hub.io
 proxy=.sci-hub.io
 
+[Université Paris Sud]
+alias=U Paris Sud
+proxy=.proxy.scd.u-psud.fr:2048
