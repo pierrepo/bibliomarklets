@@ -31,25 +31,23 @@ HTML_HEADER="""
 <title>Bibliomarklets : bookmarklets pour faciliter l'accès aux articles scientifiques payants</title>
 <style type="text/css">
 .btn {
-  background: #e3e3e3;
-  border: 1px solid #bbb;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
-  -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
-  box-shadow: inset 0 0 1px 1px #f6f6f6;
-  color: #333;
-  font: bold 12px helvetica, helvetica, arial, sans-serif;
-  padding: 8px 5px 9px 5px;
-  margin: 1px 2px 1px 2px;
-  text-align: center;
-  text-shadow: 0 1px 0 #fff;
-  text-decoration: none;
- }
+    display: inline-block;
+    width: 150px;
+    background: #e3e3e3;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #333;
+    font: bold 12px helvetica, arial, sans-serif;
+    padding: 5px 5px 5px 5px;
+    margin: 1px 2px 1px 2px;
+    text-align: center;
+    text-decoration: none;
+}
 
 p {
-    padding: 5px 1px;
+    margin: 5px 1px;
 }
 </style>
 </head>

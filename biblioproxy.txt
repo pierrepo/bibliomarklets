@@ -6,9 +6,21 @@ proxy=.gate2.inist.fr
 alias=BiblioVie
 proxy=.gate1.inist.fr
 
+[TitaneSciences]
+alias=Biblio chimie CNRS
+proxy=.chimie.gate.inist.fr
+
 [Université Paris 7 - Paris Diderot]
 alias=Biblio Paris 7
 proxy=.rproxy.sc.univ-paris-diderot.fr
+
+[Université Pierre et Marie Curie - Paris 6]
+alias=Biblio UPMC
+proxy=.accesdistant.upmc.fr
+
+[Université Paris Sciences et Lettres]
+alias=Biblio PSL
+proxy=.rproxy.univ-psl.fr
 
 [Université de Nice Sophia Antipolis]
 alias=Biblio Unice
@@ -31,7 +43,7 @@ alias=Biblio Lyon 1
 proxy=.docelec.univ-lyon1.fr  
 
 [National University of Singapore]
-alias=NUS
+alias=Biblio NUS
 proxy=.libproxy1.nus.edu.sg
 
 [sci-hub.io]
