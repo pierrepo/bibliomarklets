@@ -1,9 +1,13 @@
 # -*- coding: utf8 -*-
 
-"""This script build a HTML file containing bookmarklets from a list of proxies"""
+"""
+This script build a HTML file containing bookmarklets from a list of proxies
+"""
+
+import configparser
 
 __author__ = "Pierre Poulain"
-__copyright__ = "Copyright 2013"
+__copyright__ = "Copyright 2017"
 __license__ = "GPL"
 __version__ = "1.0"
 __maintainer__ = "Pierre Poulain"
@@ -11,24 +15,17 @@ __email__ = "pierre.poulain@cupnet.net"
 __status__ = "Development"
 
 
-#==============================================================================
-# module import
-#==============================================================================
-import ConfigParser
 
-#==============================================================================
-# data
-#==============================================================================
 PROXY_NAME = "biblioproxy.txt"
 BIBLIOMARKLETS_NAME = "bibliomarklets.html"
 
-HTML_HEADER="""
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+HTML_HEADER = """<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 <title>Bibliomarklets : bookmarklets pour faciliter l'accès aux articles scientifiques payants</title>
+
 <style type="text/css">
 .btn {
     display: inline-block;
@@ -55,18 +52,27 @@ HTML_HEADER="""
 <h1>Bibliomarklets</h1>
 """
 
-# need in order: alias, section, proxy, alias, and section
-HTML_BOOKMARKLET="""
-<p class="link"><a class="btn" title="%s / %s" href="javascript:(function(){location.hostname=location.hostname+'%s';})();">%s</a>
-accès via %s</p>
+# need in order: alias, section, proxy, alias, and section
+HTML_BOOKMARKLET = """
+<p class="link">
+<a class="btn" title="{alias} / {section}" href="javascript:(function(){{location.hostname=location.hostname+'{proxy}';}})();">{alias}</a>
+accès via {section}
+</p>
 """
 
-HTML_FOOTER="""
+HTML_FOOTER = """
 <h2>Comment utiliser ces bibliomarklets ?</h2>
 <p>
 <ul>
-    <li>Faites glisser le bouton qui vous intéresse (l'institution avec laquelle vous avez un compte d'accès biblio) dans la barre de favoris (pour Chrome), la barre personnelle (pour Firefox) ou directement dans les bookmarks de votre navigateur.</li>
-    <li>Lorsque vous tombez sur un article payant, cliquez sur le bookmarklet que vous avez précédemment enregistré. La page devrait se recharger en vous proposant de vous authentifier (avec le compte de votre institution). Si votre compte est valide et que votre institution est abonnée à la revue dont provient l'article, vous y aurez accès.</li>
+    <li>Faites glisser le bouton qui vous intéresse (l'institution avec
+    laquelle vous avez un compte d'accès biblio) dans la barre de favoris 
+    (pour Chrome), la barre personnelle (pour Firefox) ou directement dans 
+    les bookmarks de votre navigateur.</li>
+    <li>Lorsque vous tombez sur un article payant, cliquez sur le bookmarklet 
+    que vous avez précédemment enregistré. La page devrait se recharger 
+    en vous proposant de vous authentifier (avec le compte de votre 
+    institution). Si votre compte est valide et que votre institution est 
+    abonnée à la revue dont provient l'article, vous y aurez accès.</li>
 </ul>
 </p>
 
@@ -79,18 +85,15 @@ Si vous souhaitez ajouter votre instition, envoyez-moi un mail à pierre.poulain
 </p>
 <p>
 -- <br />
-Pierre Poulain (<a href="http://cupnet.net">cupnet.net</a>, 2016)
+Pierre Poulain (<a href="http://cupnet.net">cupnet.net</a>, 2017)
 </p>
 </body>
 </html>
 """
 
-#===============================================================================
-# main
-#===============================================================================
 
 if __name__ == "__main__":
-    proxies = ConfigParser.SafeConfigParser()
+    proxies = configparser.SafeConfigParser()
     proxies.read(PROXY_NAME)
 
     f_out = open(BIBLIOMARKLETS_NAME, "w")
@@ -100,13 +103,11 @@ if __name__ == "__main__":
     for section in proxies.sections():
         proxy_dic = {}
         for (key, value) in proxies.items(section):
-            proxy_dic[key]=value
-        f_out.write(HTML_BOOKMARKLET %(proxy_dic["alias"],
-                                  section, 
-                                  proxy_dic["proxy"], 
-                                  proxy_dic["alias"],
-                                  section))
+            proxy_dic[key] = value
+        f_out.write(HTML_BOOKMARKLET.format(alias=proxy_dic["alias"],
+                                            section=section,
+                                            proxy=proxy_dic["proxy"]))
 
     f_out.write(HTML_FOOTER)
     f_out.close()
-    print "wrote", BIBLIOMARKLETS_NAME
+    print("wrote {}".format(BIBLIOMARKLETS_NAME))

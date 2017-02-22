@@ -1,5 +1,5 @@
 .PHONY: compile
 
 compile:
-	python build.py
+	python3 build.py
 
