@@ -2,9 +2,9 @@
 alias=BiblioInserm
 proxy=.gate2.inist.fr 
   
-[CNRS]
-alias=BiblioVie
-proxy=.gate1.inist.fr
+[INSB bib CNRS]
+alias=INSB BibCNRS
+proxy=.insb.bib.cnrs.fr
 
 [TitaneSciences]
 alias=Biblio chimie CNRS
