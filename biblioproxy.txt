@@ -2,8 +2,8 @@
 alias=BiblioInserm
 proxy=.gate2.inist.fr 
   
-[INSB bib CNRS]
-alias=INSB BibCNRS
+[bib CNRS (INSB)]
+alias=BibCNRS INSB
 proxy=.insb.bib.cnrs.fr
 
 [TitaneSciences]
