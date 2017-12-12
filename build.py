@@ -19,14 +19,23 @@ __status__ = "Development"
 PROXY_NAME = "biblioproxy.txt"
 BIBLIOMARKLETS_NAME = "bibliomarklets.html"
 
-HTML_HEADER = """<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+HTML_HEADER = """<!DOCTYPE html>
+<html lang="fr">
 <head>
-
-<title>Bibliomarklets : bookmarklets pour faciliter l'accès aux articles scientifiques payants</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="author" content="Pierre Poulain">
+    <meta name="keywords" content="bibliomarklet,bookmarklet,proxy,bibliothèque,article">
+    <meta name="description" content="Bibliomarklets : bookmarklets pour faciliter l'accès aux articles scientifiques payants">
+    <title>Bibliomarklets : bookmarklets pour faciliter l'accès aux articles scientifiques payants</title>
 
 <style type="text/css">
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
 .btn {
     display: inline-block;
     width: 150px;
@@ -46,6 +55,18 @@ HTML_HEADER = """<?xml version="1.0" encoding="UTF-8" ?>
 .link {
     margin: 5px 1px;
 }
+
+@media (max-width: 1000px) {
+    body {
+        width: auto;
+    }
+}
+
+@media print {
+    body {
+        width: auto;
+    }
+}
 </style>
 </head>
 <body>
@@ -64,7 +85,7 @@ HTML_FOOTER = """
 <h2>Comment utiliser ces bibliomarklets ?</h2>
 <p>
 <ul>
-    <li>Faites glisser le bouton qui vous intéresse (l'institution avec
+    <li>Faites glisser le bouton qui vous intéresse (l'institution pour
     laquelle vous avez un compte d'accès biblio) dans la barre de favoris 
     (pour Chrome), la barre personnelle (pour Firefox) ou directement dans 
     les bookmarks de votre navigateur.</li>
@@ -81,7 +102,7 @@ HTML_FOOTER = """
 Le code utilisé pour générer cette page est disponible <a href="https://github.com/pierrepo/bibliomarklets">ici</a>. N'hésitez pas à l'améliorer.
 </p>
 <p>
-Si vous souhaitez ajouter votre instition, envoyez-moi un mail à pierre.poulain@cupnet.net (mais lisez <a href="https://github.com/pierrepo/bibliomarklets#pourquoi-il-ny-a-pas-de-bibliomarklet-pour-ma-fac--institution-">ceci</a> d'abord).
+Si vous souhaitez ajouter votre institution, envoyez-moi un mail à pierre.poulain@cupnet.net (mais lisez <a href="https://github.com/pierrepo/bibliomarklets#pourquoi-il-ny-a-pas-de-bibliomarklet-pour-ma-fac--institution-">ceci</a> d'abord).
 </p>
 <p>
 -- <br />
