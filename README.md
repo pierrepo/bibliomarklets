@@ -1,3 +1,5 @@
+# Bibliomarklets
+
 Les **bibliomarklets** visent à faciliter l'accès aux articles scientifiques payants en passant par les proxys institutionnels (CNRS, Inserm, universités...).
 
 Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéder à des articles scientifiques à condition que : 
@@ -5,11 +7,13 @@ Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéd
 * Vous ayez un compte (login et mot de passe) chez une institution / fournisseur. Typiquement en étant étudiant d'une université ou personnel d'un laboratoire de recherche associé à cette institution.
 * Votre institution soit abonnée à la revue dont l'article vous intéresse.
 
+
 # Comment faire ?
 
 * Visualisez le fichier fichier [bibliomarklets.html](https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html) en cliquant <a href="http://htmlpreview.github.com/?https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html" target="_blank">ICI</a>.
 * Faites glisser le bouton qui vous intéresse (l'institution avec laquelle vous avez un compte d'accès biblio) dans la barre de favoris (pour Chrome), la barre personnelle (pour Firefox) ou directement dans les bookmarks de votre navigateur.
 * Lorsque vous tombez sur un article payant, cliquez sur le bookmarklet que vous avez précédemment enregistré, la page devrait se recharger en vous proposant de vous authentifier (avec le compte de votre institution). Si votre compte est valide et que votre institution est abonnée à la revue dont provient l'article, vous y aurez accès.
+
 
 # Comment ça marche ?
 
