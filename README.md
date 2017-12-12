@@ -4,8 +4,9 @@ Les **bibliomarklets** visent à faciliter l'accès aux articles scientifiques p
 
 Ces [bookmarklets](http://fr.wikipedia.org/wiki/Bookmarklet) permettent d'accéder à des articles scientifiques à condition que : 
 
-* Vous ayez un compte (login et mot de passe) chez une institution / fournisseur. Typiquement en étant étudiant d'une université ou personnel d'un laboratoire de recherche associé à cette institution.
-* Votre institution soit abonnée à la revue dont l'article vous intéresse.
+- Vous ayez un compte (login et mot de passe) chez une institution / fournisseur. Typiquement en étant étudiant d'une université ou personnel d'un laboratoire de recherche associé à cette institution.
+
+- Votre institution soit abonnée à la revue dont l'article vous intéresse.
 
 
 # Comment faire ?
@@ -21,13 +22,17 @@ Un [bookmarklet](http://fr.wikipedia.org/wiki/Bookmarklet) s'est grosso modo du 
 
 Concrètement, une bibliomarklet va simplement ajouter `.proxy.votre.institution` à l'adresse de la page de votre article, tranformant ainsi
 
-    http://site.editeur/adresse/article/interessant
+```
+http://site.editeur/adresse/article/interessant
+```
 
 en
 
-    http://site.editeur.proxy.votre.institution/adresse/article/interessant
+```
+http://site.editeur.proxy.votre.institution/adresse/article/interessant
+```
 
-[bibliomarklets.html](https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html) est généré par le script Python [build.py](https://raw.github.com/pierrepo/bibliomarklets/master/build.py) à partir du fichier [biblioproxy.txt](https://raw.github.com/pierrepo/bibliomarklets/master/biblioproxy.txt) qui contient une liste d'institutions avec leurs proxys.
+Le fichier [bibliomarklets.html](https://raw.github.com/pierrepo/bibliomarklets/master/bibliomarklets.html) est généré par le script Python [build.py](https://raw.github.com/pierrepo/bibliomarklets/master/build.py) à partir du fichier [biblioproxy.txt](https://raw.github.com/pierrepo/bibliomarklets/master/biblioproxy.txt) qui contient une liste d'institutions avec leurs proxys.
 
 # Pourquoi il n'y a pas de bibliomarklet pour ma fac / institution ?
 
